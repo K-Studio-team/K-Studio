@@ -64,7 +64,7 @@
 									<header class="major">
 										<h2>特徴</h2>
 									</header>
-								  <div class="flex">
+								  <div class="flex" style = color:#778899>
 								   <div class="box">
 								    <p>あああああああ</p>
 								   </div>
@@ -90,21 +90,38 @@
 									<p>〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜.</p>
 								</div>
 							</section>
-
 					</div>
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
+
+<body>
+    <table border="0" width="500px" style = "background:#ffffff" >
+    <tbody>
+
+      <tr><td align="left">
+			　<%= link_to image_tag("download.png",:size =>'200x76', class: "image"), "https://apps.apple.com/jp/app/apple-store/id375380948" %>
+			</td></tr>
+
+      <tr><td align="right">
+        <a href="" class="btn btn-border">push</a>
+				<li><%= link_to '利用規約', kiyaku_path, class: "btn btn-border" %></li>
+        <li><%= link_to 'プライバシーポリシー', policy_path, class: "btn btn-border" %></li>
+      </td></tr>
+    </tbody>
+    </table>
+  </body>
+
+
+             <div class="inner" style = "background:#ffffff">
 									<ul>
 										<%= link_to image_tag("download.png",:size =>'200x76', class: "image"), "https://apps.apple.com/jp/app/apple-store/id375380948" %>
 									</ul>
-									<ul class="actions">
-										<li><%= link_to '利用規約', kiyaku_path, class: "primary" %></li>
-                    <li><%= link_to 'プライバシーポリシー', policy_path, class: "primary" %></li>
-									</ul>
-							</section>
+
+									  <a href="" class="btn btn-border">push</a>
+										<li><%= link_to '利用規約', kiyaku_path, class: "btn btn-border" %></li>
+                    <li><%= link_to 'プライバシーポリシー', policy_path, class: "btn btn-border" %></li>
+
+							</div>
+						</section>
 
 
 		<!-- Scripts -->
