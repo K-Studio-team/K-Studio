@@ -12,14 +12,11 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
-								<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><span><%= link_to image_tag("logo.png",:size =>'135x60'), top_path %></span></a>
-						<nav>
-							<a><%= link_to '利用規約', kiyaku_path %></a>
-							<a><%= link_to 'プライバシーポリシー', policy_path %></a>
-						</nav>
-					</header>
+       <!-- Header -->
+			   <header id="header">
+						<a class="logo"><span>K-Studio</span></a>
+					<nav></nav>
+			   </header>
 
 
 				<!-- Banner -->
@@ -38,60 +35,51 @@
 						</div>
 					</section>
 
-				<!-- Main -->
-					<div id="main">
-
-				　　　<section id="one" style = "background:#78bfd7">
-								<div class="inner">
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
 									<header class="major">
-										<h2>K-Studioとは</h2>
+										<h3><%= link_to 'K-Studioとは', about_path, class: "link" %></h3>
+										<p>サブタイトルサブタイトル</p>
 									</header>
-									<p>〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜.</p>
-								</div>
+								</article>
+								<article>
+									<header class="major">
+									    <h3><%= link_to '特徴', point_path, class: "link" %></h3>
+										<p>サブタイトルサブタイトル</p>
+									</header>
+								</article>
+								<article>
+									<header class="major">
+									   <h3><%= link_to 'コーチ紹介', coach_path, class: "link" %></h3>
+										<p>サブタイトルサブタイトル</p>
+									</header>
+								</article>
+								<article>
+									<header class="major">
+										<h3><a href="" class="link">ダウンロードはこちら</a></h3>
+										<p>	<a href="https://apps.apple.com/us/app/k-studio/id1480018688?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1569801600&h=3951218cc9a203c4cb6ad41cbeb743d7" alt="AppStoreからダウンロード" style="border-radius: 13px; width: 250px; height: 83px;"></a></p>
+									</header>
+								</article>
 							</section>
 
-					  	<section id="two" style = "background:#e59389">
-							 	<div class="inner">
-									<header class="major">
-										<h2>特徴</h2>
-									</header>
-								  <div class="flex" style = color:#778899>
-								   <div class="box">
-								    <p>あああああああ</p>
-								   </div>
-                   <div class="box">
-								    <p>いいいいいいいい</p>
-								   </div>
-                   <div class="box">
-								    <p>ううううううううう</p>
-								   </div>
-                   <div class="box">
-								    <p>えええええええええ</p>
-								   </div>
-								  </div>
-								 </div>
-								</div>
-							</section>
 
-							<section id="three" style = "background:#9086c1">
-								<div class="inner">
-									<header class="major">
-										<h2>コーチ紹介</h2>
-									</header>
-									<p>〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜.</p>
-								</div>
-							</section>
-					</div>
+<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul>
+							 <li><span class="label"><%= link_to '利用規約', kiyaku_path, class: "link" %></span></li>
+							 <li><span class="label"><%= link_to 'プライバシーポリシー', kiyaku_path, class: "link" %></span></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
 
 
-    <table border="0" width="500px" >
-    <tbody>
-      <tr><td align="left">
-      	<a href="https://apps.apple.com/us/app/k-studio/id1480018688?itsct=apps_box&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1569801600&h=3951218cc9a203c4cb6ad41cbeb743d7" alt="AppStoreからダウンロード" style="border-radius: 13px; width: 250px; height: 83px;"></a>
-			</td>
-	  </tr>
-    </tbody>
-    </table>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

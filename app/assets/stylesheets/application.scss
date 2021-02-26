@@ -28,7 +28,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background: #FFE4E1;
+  background: #E6E6E6;
   text-align:center;
   line-height: 80px;
  }
@@ -71,4 +71,14 @@ a.btn-border:after {
 a.btn-border:hover:before,
 a.btn-border:hover:after {
   width: 0;
+}
+
+.Klogo {
+    max-width:100px; /* 画像の最大幅 */
+    margin: auto; /* 画像の左右の余白を同じ幅にする */
+    display: block; /* 画像の下の隙間をなくす */
+}
+
+ul {
+  list-style: none;
 }
