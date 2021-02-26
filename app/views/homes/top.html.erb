@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>K_Studio</title>
@@ -16,20 +12,15 @@
 
 		<!-- Wrapper -->
 			<div id="wrapper">
+								<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><span><%= link_to image_tag("logo.png",:size =>'135x60'), top_path %></span></a>
+						<nav>
+							<a><%= link_to '利用規約', kiyaku_path %></a>
+							<a><%= link_to 'プライバシーポリシー', policy_path %></a>
+						</nav>
+					</header>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
-						</ul>
-						<ul class="actions stacked">
-							<li><a href="#" class="button primary fit">Get Started</a></li>
-							<li><a href="#" class="button fit">Log In</a></li>
-						</ul>
-					</nav>
 
 				<!-- Banner -->
 					<section id="banner" class="major">
@@ -93,36 +84,14 @@
 					</div>
 
 
-<body>
     <table border="0" width="500px" style = "background:#ffffff" >
     <tbody>
-
       <tr><td align="left">
 			　<%= link_to image_tag("download.png",:size =>'200x76', class: "image"), "https://apps.apple.com/jp/app/apple-store/id375380948" %>
-			</td></tr>
-
-      <tr><td align="right">
-        <a href="" class="btn btn-border">push</a>
-				<li><%= link_to '利用規約', kiyaku_path, class: "btn btn-border" %></li>
-        <li><%= link_to 'プライバシーポリシー', policy_path, class: "btn btn-border" %></li>
-      </td></tr>
+			</td>
+	  </tr>
     </tbody>
     </table>
-  </body>
-
-
-             <div class="inner" style = "background:#ffffff">
-									<ul>
-										<%= link_to image_tag("download.png",:size =>'200x76', class: "image"), "https://apps.apple.com/jp/app/apple-store/id375380948" %>
-									</ul>
-
-									  <a href="" class="btn btn-border">push</a>
-										<li><%= link_to '利用規約', kiyaku_path, class: "btn btn-border" %></li>
-                    <li><%= link_to 'プライバシーポリシー', policy_path, class: "btn btn-border" %></li>
-
-							</div>
-						</section>
-
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
